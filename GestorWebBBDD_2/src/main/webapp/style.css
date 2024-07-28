@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('images/fondo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #c0c0c0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20 px;
+}
+
+h1, h2 {
+    text-align: center; 
+    color: #343a40; 
+    font-family: 'Roboto', sans-serif; 
+    margin: 20px 0; 
+}
+
+.bg-translucent {
+    background-color: rgba(255, 255, 255, 0.8); /* Color blanco con 80% de opacidad */
+}
